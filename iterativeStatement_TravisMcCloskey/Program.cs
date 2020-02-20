@@ -16,14 +16,14 @@ namespace iterativeStatement_TravisMcCloskey
                 {
                     for (int userInput = start; userInput < inputValue + 1; userInput++)
                     {
-                        Console.WriteLine(userInput.ToString() + "." + "You entered an even number :D");
+                        Console.WriteLine("You entered an even number :D");
                     }
                 }
                 else
                 {
                     for (int userInput = start; userInput < inputValue - 1; userInput++)
                     {
-                        Console.WriteLine(userInput.ToString() + "." + "You entered an odd number D;");
+                        Console.WriteLine("You entered an odd number D;");
                     }
                 }
             }
